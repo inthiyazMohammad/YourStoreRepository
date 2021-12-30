@@ -18,4 +18,10 @@
     </classes>
   </test> <!-- Test -->
   
+  <test thread-count="5" name="Login_Page_Test">
+    <classes>
+      <class name="com.org.Testcases.Login_Page_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
 </suite> <!-- Suite -->
