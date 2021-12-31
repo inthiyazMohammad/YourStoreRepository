@@ -71,6 +71,7 @@ public class Logout_Page_Test extends BaseClass {
 	@Test(priority=4)
 	public void Verify_Logout_Page() throws InterruptedException {
 		
+		System.out.println("Logout page verification");
 		logout_page = new Logout_Page();
 		
 		logout_page.Validate_Logout_Page_Title();
